@@ -1,0 +1,12 @@
+.active {
+    color: red !important;
+}
+.bg-info{
+    background-color: black !important;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: yellowgreen !important;
+}

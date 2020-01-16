@@ -1,0 +1,16 @@
+<div>
+    <button class="btn btn-info" routerLink="/product-add">Add</button>
+</div>
+<div class="row my-3">
+    <div *ngFor="let product of products" class="col-md-4">
+        <p>{{product.name}}</p>
+        <img src="{{product.avatar}}" alt="" width="190px">
+        <div class="image">
+            <button class="btn btn-danger" (click)="DeleteProduct(product.id)" >Delete</button>
+            <button class="btn btn-info" routerLink="/products/{{product.id}}" >Detail</button>
+            <button class="btn btn-success" routerLink = "/products/edit/{{product.id}}">Edit</button>
+        </div>
+        
+    </div>
+</div>
+<hr>

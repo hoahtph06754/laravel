@@ -1,0 +1,12 @@
+.card-img{
+    opacity: 0.7;
+}
+.card-img-overlay{
+    width: 450px;
+    height: 200px;
+    background-color: peachpuff;
+    margin-left: 35px;
+    margin-top: 140px;
+    color: black;
+    background-color: rgba(214, 188, 100, 0.57);
+}
